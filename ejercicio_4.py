@@ -1,0 +1,1 @@
+# construir una que reciba como parametro una lista de datos numericos y que  retorne el promedio de dichos datos 
