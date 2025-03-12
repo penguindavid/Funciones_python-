@@ -1,8 +1,7 @@
 # construir una funcion que reciba su nombre como parametro y que lo muestre en la pantalla 5 veces 
 
-print("--------------------------------")
-print("--DIGITE UN NOMBRE--")
-print("--------------------------------")
+
+
 
 # definicion de la funcion
 def mostrarnombre(nombre):
