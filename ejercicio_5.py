@@ -8,14 +8,14 @@ print("-----------------------------------------")
 
 def calcular_promedio_pares(lista):
     suma = 0
-    contador = 0  # Renamed variable from 'count' to 'contador'
+    pares = 0 
     for i in lista:
         if i % 2 == 0:
             suma += i
-            contador += 1
-    if contador == 0:
+            pares += 1
+    if pares  == 0:
         return 0  
-    promedio = suma / contador
+    promedio = suma / pares 
     return promedio
 
 
@@ -26,7 +26,7 @@ lista = []
 n = int(input("Digite el tamaño de la lista: "))
 
 for i in range(n):
-    num = random.randint(14, 18)
+    num = random.randint(14, 17)
     lista.append(num)
 
 # Procesamiento
