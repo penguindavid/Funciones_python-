@@ -7,12 +7,13 @@ print("-----------------------------------------")
 
 # definicion de la funcion 
 def mostrarnombre(cadena, n):
-    pass
-    for _ in range(n):
-        print(cadena)
+    for i in range(1,n):
+        print(f"{i} . {cadena}")
 
 cadena = input("Por favor, introduce una cadena: ")
 n = int(input("¿Cuántas veces deseas mostrar la cadena?: "))
 
 # Llamar a la función
-mostrarnombre(cadena, n)
+mostrarnombre(cadena, n+1)
+
+
